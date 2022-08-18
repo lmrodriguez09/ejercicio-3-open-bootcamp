@@ -3,8 +3,6 @@ public class Main {
       int x=10;
       int y=25;
       int z=9;
-      int numPuertas=4;
-      int miCoche=1;
 
       System.out.println(x + y + z);
     }
