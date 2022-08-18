@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+      int numPuertas=4;
+      int miCoche=1;
+
+      System.out.println(numPuertas + miCoche);
+    }
+    
+   class Coche{
+    public int numeroPuertas = 4;
+    }
+    
+    public static int Coche(int numPuertas, int miCoche) {
+        
+        int resultado = numPuertas + miCoche;
+        System.out.println(resultado);
+        return Coche(numPuertas, resultado);
+    }
+}
